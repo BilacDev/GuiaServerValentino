@@ -87,7 +87,7 @@ Agora para realizar a configuração nesse arquivo iremos mudar as seguintes con
 Agora precisamos fazer um link desse arquivo para /etc/apache2/sites-enabled
 
 ```
-sudo 2ensite valentino.conf
+sudo a2ensite valentino.conf
 ```
 
 ### Pronto!
