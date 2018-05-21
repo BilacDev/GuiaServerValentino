@@ -16,8 +16,8 @@ sudo apt-get install proftpd
 ```
 sudo nano /etc/proftpd/proftpd.conf
 ```
-- 
-Alterar o ServerName para o nome do seu servidor, no caso usamos "FTP Bilac"
+-Alterar o ServerName para o nome do seu servidor, no caso usamos "FTP Bilac"
+
 Descomentar a linha  - DefaultRoot                     ~
 Descomentar a linha  - RequireValidShell               off
 
