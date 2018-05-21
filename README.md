@@ -109,4 +109,16 @@ e fazer algo como:
 172.17.5.67     www.valentino.com
 
 
-
+## Script de conexao PHP com BD se necessário
+```PHP
+<?php
+try{
+  $conn =  new PDO("mysql:host=localhost;dbname=valentino", "root", "toor");
+  $stmt = $conn->query("SELECT * FROM users");
+  $res = $stmt->fetchAll();
+  print_r($res);
+}catch(Exception $e){
+  echo "Erro na conexao";
+}
+?>
+```
